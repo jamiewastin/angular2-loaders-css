@@ -79,7 +79,7 @@ import { Component } from '@angular/core';
 @Component({
     template: `
         <h2>Home component header</h2>
-        <loaders-css [loader]="'square-spin'" [loaderClass]="'my-loader'"></loaders-css>
+        <loaders-css loader="square-spin" loaderClass="my-loader"></loaders-css>
     `
 })
 export class HomeComponent {}
